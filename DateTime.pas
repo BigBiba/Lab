@@ -13,4 +13,9 @@
     Println($'{a} ближе')
   else
     Println($'{b} ближе');
+  
+  if (year mod 4 = 0) and (year mod 100 <> 0) then
+    Println($'{year} - 366')
+  else
+    Println($'{year} - 365');
 end.
